@@ -21,7 +21,7 @@ header{background: white;
      color: #777;
      display: block;
      font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-     padding: 24px;
+     padding: 22px;
      text-align: center;
      border:1px solid gray;}
 
@@ -41,7 +41,7 @@ text-shadow: 2px 2px 5px black;
 
 code2 {margin-right: 20px;
      position: relative;
-     left:240px;
+     left:200px;
     font-size:20px;}       
 
 .container {width:960px;
@@ -72,6 +72,7 @@ p{   color: '#777';
      background: '#ebebeb';
      line-height: 1.8;
      padding: 5px;
+     font-size: 18px;
 
      }   
 
@@ -125,7 +126,7 @@ input[type=text], select, textarea {
      float: left;
      width:;
      height:;
-     margin-left: 70px;
+     margin-left: 100px;
      }
    
    div.gallery:hover {
