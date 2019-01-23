@@ -47,8 +47,10 @@ code2 {margin-right: 20px;
 .container {width:960px;
      margin:0 auto;
      background-color: white;
-     height:auto;
+     height:700px;
      }
+
+.container2{ padding:20px;}
 
 Article
      {color: '#ebebeb';
@@ -90,27 +92,7 @@ footer { position: fixed;
      border-top: 8px solid #4aaaa5;
       }
       
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-     width: 960px; /* Full width */
-     padding: 12px; /* Some padding */  
-     border: 1px solid #ccc; /* Gray border */
-     border-radius: 4px; /* Rounded borders */
-     box-sizing: border-box; /* Make sure that padding and width stays in place */
-     margin-top: 6px; /* Add a top margin */
-     margin-bottom: 16px; /* Bottom margin */
-     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-   }
-   
-   /* Style the submit button with a specific background color etc */
-   input[type=submit] {
-     background-color: #4CAF50;
-     color: white;
-     padding: 12px 20px;
-     border: none;
-     border-radius: 4px;
-     cursor: pointer;
-   }
+
    
    /* When moving the mouse over the submit button, add a darker green color */
    input[type=submit]:hover {
@@ -127,6 +109,7 @@ input[type=text], select, textarea {
      width:;
      height:;
      margin-left: 100px;
+     position: relative;
      }
    
    div.gallery:hover {
@@ -135,7 +118,54 @@ input[type=text], select, textarea {
    
    
    
-   div.desc {
-     padding: 5px;
+   div.desc1 {
+     padding: 10px;
      text-align: center;
+     position: absolute;
+     background-color: #4aaaa5;
+     top:150px;
+     left:0;
+     width: 130px;
+     color:white;
+
    }
+   div.desc2 {
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    background-color: #4aaaa5;
+    top:100px;
+    left:0;
+    color:white;
+    width: 200px;
+
+  }
+
+   div.desc1:hover, div.desc2:hover {
+    color: yellow;
+  }
+  #code2:hover {color:red;}
+
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 920px; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
