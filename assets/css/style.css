@@ -39,10 +39,21 @@ text-shadow: 2px 2px 5px black;
 
 }
 
-code2 {margin-right: 20px;
+code2 {margin-right:  10px;
      position: relative;
      left:200px;
-    font-size:20px;}       
+    font-size:20px;
+    border-right: 1px dotted black;
+   padding-right: 15px;
+  }       
+
+code3 {margin-right: 20px;
+      position: relative;
+      left:200px;
+     font-size:20px;
+     } 
+
+     
 
 .container {width:960px;
      margin:0 auto;
@@ -144,7 +155,9 @@ footer { position: fixed;
    div.desc1:hover, div.desc2:hover {
     color: yellow;
   }
-  #code2:hover {color:red;}
+  
+  code2:hover {font-size:25px;}
+  code3:hover {font-size:25px;}
 
 
 
